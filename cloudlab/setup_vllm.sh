@@ -23,4 +23,4 @@ sudo systemctl restart docker
 sudo docker pull nvidia/cuda:12.1.1-runtime-ubuntu22.04
 
 # Run the container
-sudo docker run --gpus all -it nvidia/cuda:12.1.1-runtime-ubuntu22.04 /bin/bash
+#sudo docker run --gpus all -it nvidia/cuda:12.1.1-runtime-ubuntu22.04 /bin/bash
